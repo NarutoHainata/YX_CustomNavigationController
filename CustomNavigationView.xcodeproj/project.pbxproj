@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F001E731D4AE5C900696CFC /* bgimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F001E721D4AE5C900696CFC /* bgimg.jpg */; };
 		2FF8D5C21D4A396A00294622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8D5C11D4A396A00294622 /* main.m */; };
 		2FF8D5C51D4A396A00294622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8D5C41D4A396A00294622 /* AppDelegate.m */; };
 		2FF8D5C81D4A396A00294622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8D5C71D4A396A00294622 /* ViewController.m */; };
 		2FF8D5CB1D4A396A00294622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8D5C91D4A396A00294622 /* Main.storyboard */; };
 		2FF8D5CD1D4A396A00294622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8D5CC1D4A396A00294622 /* Assets.xcassets */; };
 		2FF8D5D01D4A396A00294622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8D5CE1D4A396A00294622 /* LaunchScreen.storyboard */; };
+		2FF8D5D91D4A3A3500294622 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8D5D81D4A3A3500294622 /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F001E721D4AE5C900696CFC /* bgimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimg.jpg; sourceTree = "<group>"; };
 		2FF8D5BD1D4A396A00294622 /* CustomNavigationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF8D5C11D4A396A00294622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FF8D5C31D4A396A00294622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		2FF8D5CC1D4A396A00294622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF8D5CF1D4A396A00294622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF8D5D11D4A396A00294622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF8D5D71D4A3A3500294622 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		2FF8D5D81D4A3A3500294622 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		2FF8D5BF1D4A396A00294622 /* CustomNavigationView */ = {
 			isa = PBXGroup;
 			children = (
+				2F001E721D4AE5C900696CFC /* bgimg.jpg */,
 				2FF8D5C31D4A396A00294622 /* AppDelegate.h */,
 				2FF8D5C41D4A396A00294622 /* AppDelegate.m */,
 				2FF8D5C61D4A396A00294622 /* ViewController.h */,
 				2FF8D5C71D4A396A00294622 /* ViewController.m */,
+				2FF8D5D71D4A3A3500294622 /* OtherViewController.h */,
+				2FF8D5D81D4A3A3500294622 /* OtherViewController.m */,
 				2FF8D5C91D4A396A00294622 /* Main.storyboard */,
 				2FF8D5CC1D4A396A00294622 /* Assets.xcassets */,
 				2FF8D5CE1D4A396A00294622 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			files = (
 				2FF8D5D01D4A396A00294622 /* LaunchScreen.storyboard in Resources */,
 				2FF8D5CD1D4A396A00294622 /* Assets.xcassets in Resources */,
+				2F001E731D4AE5C900696CFC /* bgimg.jpg in Resources */,
 				2FF8D5CB1D4A396A00294622 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FF8D5C81D4A396A00294622 /* ViewController.m in Sources */,
+				2FF8D5D91D4A3A3500294622 /* OtherViewController.m in Sources */,
 				2FF8D5C51D4A396A00294622 /* AppDelegate.m in Sources */,
 				2FF8D5C21D4A396A00294622 /* main.m in Sources */,
 			);
@@ -300,6 +310,7 @@
 				2FF8D5D61D4A396A00294622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
